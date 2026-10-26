@@ -1,0 +1,14 @@
+uuid: 3952f82f-8b6d-46cb-930b-19cbfc3108af
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.todo_user
+  module:
+    - user
+id: user_add_role_action.todo_user
+label: 'Add the Todo user role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: todo_user

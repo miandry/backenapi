@@ -1,0 +1,30 @@
+uuid: ecd44316-8d5b-491f-9daf-996c1e18e629
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.task.field_done
+    - node.type.task
+  module:
+    - user
+id: node.task.default
+targetEntityType: node
+bundle: task
+mode: default
+content:
+  field_done:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,26 @@
+# Installed by Composer (run: composer install)
+/vendor/
+/web/core/
+/web/libraries/
+/web/modules/contrib/
+/web/themes/contrib/
+/web/profiles/contrib/
+/drush/Commands/contrib/
+/recipes/*
+!/recipes/README.txt
+
+# Secrets and server-specific settings
+/web/sites/*/settings.local.php
+/web/sites/*/settings.*.php
+!/web/sites/*/default.settings.php
+.env
+
+# User uploads and generated files
+/web/sites/*/files/
+/private/
+
+# Editors / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store

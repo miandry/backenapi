@@ -1,0 +1,17 @@
+uuid: 645f6384-4517-44b5-a917-e8008ae5a5e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.task
+  module:
+    - node
+id: todo_user
+label: 'Todo user'
+weight: 4
+is_admin: false
+permissions:
+  - 'create task content'
+  - 'delete own task content'
+  - 'edit own task content'
+  - 'view own unpublished content'

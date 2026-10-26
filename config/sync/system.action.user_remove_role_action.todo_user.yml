@@ -1,0 +1,14 @@
+uuid: a5a33a9c-bc41-4471-8bd2-ce9caddc8b99
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.todo_user
+  module:
+    - user
+id: user_remove_role_action.todo_user
+label: 'Remove the Todo user role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: todo_user
